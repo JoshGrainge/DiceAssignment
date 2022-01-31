@@ -60,14 +60,6 @@ public class DiceGame
         // Display amount of rolls it took before yahtzee was achieved
         System.out.println("YAHTZEE! it took " + numberOfRolls + " rolls");
         
-        // Ensure die are all same
-        int currentDie = 1;
-        for (Die d : yahtzeeDie) 
-        {
-            System.out.println("Die number:  " + currentDie + " has value of: " + d.getSideUp());
-            currentDie++;
-        }
-
     }
     
     // Check if all dice objects have the same face side up value
