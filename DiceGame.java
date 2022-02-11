@@ -21,10 +21,13 @@ public class DiceGame
 
         // Roll dice then display new side up value
         System.out.println("Rolling the " + d6.getType() + "...");
+        d6.Roll();
         System.out.println("The new value is " + d6.getSideUp());
         System.out.println("Rolling the " + d20.getType() + "...");
+        d20.Roll();
         System.out.println("The current side up for " + d20.getType() + " is " + d20.getSideUp());
         System.out.println("Rolling the " + d10.getType() + "...");
+        d10.Roll();
         System.out.println("The new value is " + d10.getSideUp());
 
         // Set side up to be max number on die
